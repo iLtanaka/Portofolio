@@ -1,0 +1,63 @@
+body {
+	background-color: #fff;
+	font-family: 'Roboto', 'serif';
+}
+.container {
+	margin: 0px 250px;
+}
+.headers-buttons {
+	display: flex;
+	font-weight: bold;
+	font-size: 18px;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 34px;
+	padding-bottom: 32px;
+	border-bottom: solid;
+	border-width: 1px;
+	color: #828282;
+}
+.header-btn {
+	text-decoration: none;
+	color: #828282;
+	transition: color 0.2s linear;
+}
+.header-btn:hover {
+	color: #070707;
+}
+
+.inf-title {
+	font-size: 48px;
+	font-weight: bold;
+	padding-top: 40px;
+}
+.information {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.inf-who-i-am {
+	font-weight: medium;
+	font-size: 18px;
+	padding-top: 95px;
+	margin-bottom: 54px;
+}
+.page-language {
+	transform: rotate(-90deg);
+	cursor: pointer;
+    font-weight: bold;
+}
+.page-language span {
+    color: #828282;
+    font-size: 16px;
+    transition: color 0.2s linear;
+}
+.page-language span:hover {
+	color: #070707;
+}
+.me-img {
+	background-image: url(images/me.png);
+	background-repeat: no-repeat;
+	background-size: 944px;
+	height: 100vh;
+}
