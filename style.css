@@ -5,6 +5,7 @@ body {
 .container {
 	margin: 0px 250px;
 }
+
 .headers-buttons {
 	display: flex;
 	font-weight: bold;
@@ -58,6 +59,133 @@ body {
 .me-img {
 	background-image: url(images/me.png);
 	background-repeat: no-repeat;
-	background-size: 944px;
-	height: 100vh;
+	background-size: cover;
+	height: 60vh;
+}
+
+.about-me {
+	background-color: #F6F6F6;
+}
+.about-me-title {
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+	padding-bottom: 18px;
+	padding-top: 120px;
+}
+.about-me-main-inf {
+	font-size: 18px;
+	font-weight: medium;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.bott {
+	padding-bottom: 107px;
+}
+
+.skills-title {
+	font-weight: bold;
+	text-align: center;
+	font-size: 34px;
+	padding-top: 91px;
+}
+.skills-subtitle {
+	padding-top: 70px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: medium;
+}
+.skills-images {
+	padding-top: 84px;
+	display: flex;
+	justify-content: space-around;
+}
+.skill-img-main p {
+	text-align: center;
+	padding-top: 24px;
+	font-weight: bold;
+	color: #828282;
+}
+.skills-img {
+	display: block;
+	margin: 0 auto; 
+}
+.img-star {
+	align-items: center;
+	padding-bottom: 111px;
+}
+
+.portfolio {
+	background-color: #F6F6F6;
+}
+.portfolio-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 34px;
+	padding-top: 113px;
+	margin-bottom: 47px;
+}
+.port-images {
+	text-align: center;
+}
+.port-images a {
+	color: #070707;
+	font-weight: medium;
+	font-size: 18px;
+}
+.img-online-store{
+	padding-bottom: 100px;
+}
+.img-online-store img {
+	margin-bottom: 45px;
+}
+
+.contacts-title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 34px;
+	padding-top: 115px;
+}
+.contacts-sub {
+	text-align: center;
+	font-weight: medium;
+	font-size: 18px;
+	padding-top: 21px;
+}
+.send-btn {
+	text-align: center;
+	padding-top: 30px;
+}
+.send-btn-a {
+	border-radius: 25px;
+	font-weight: bold;
+	padding: 13px 30px;
+	color: #F6F6F6;
+	background-color: #070707;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color 0.2s linear;
+}
+.send-btn-a:hover {
+	background-color: #828282;
+}
+.images-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 86px;
+}
+.image-link {
+	margin-right: 62px;
+}
+.last-link {
+	margin-right: 0;
+}
+.like-me {
+	text-align: center;
+	color: #828282;
+	font-size: 14px;
+	padding-top: 46px;
+	margin-bottom: 124px;
+	font-weight: medium;
 }
